@@ -20,6 +20,10 @@ export default defineConfig({
           name: 'app2',
           entry: '//localhost:3002',
         },
+        {
+          name: 'app3',
+          entry: '//localhost:3003',
+        },
       ],
     },
   },
@@ -43,6 +47,11 @@ export default defineConfig({
       path: 'app2/*',
       name: 'react',
       microApp: 'app2',
+    },
+    {
+      path: 'app3/*',
+      name: 'vue',
+      microApp: 'app3',
     },
   ],
   npmClient: 'pnpm',
