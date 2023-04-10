@@ -37,8 +37,13 @@ export default defineConfig({
       name: 'umi',
       routes: [
         {
-          name: 'umi11',
-          path: '/app1/project/*',
+          name: '蔡老板的模块',
+          path: '/app1/project/home',
+          component: 'Home',
+        },
+        {
+          name: 'umi22',
+          path: '/app1/project/docs',
           component: 'Home',
         },
       ],
