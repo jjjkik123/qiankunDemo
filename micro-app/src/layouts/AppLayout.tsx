@@ -2,7 +2,6 @@ import { Outlet, MicroApp } from '@umijs/max';
 import React from 'react';
 
 const AppLayout = () => {
-  console.log('1', Outlet);
 
   return (
     <>
