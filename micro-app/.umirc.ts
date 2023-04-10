@@ -30,21 +30,27 @@ export default defineConfig({
   routes: [
     {
       path: '/',
-      // redirect: '/app1/project',
+      redirect: '/app1/project/home',
     },
     {
       path: '/app1',
       name: 'umi',
+      component: 'Home',
       routes: [
         {
           name: '蔡老板的模块',
           path: '/app1/project/home',
-          component: 'Home',
+          // component: 'Home',
         },
         {
           name: 'umi22',
           path: '/app1/project/docs',
-          component: 'Home',
+          // component: 'Home',
+        },
+        {
+          name: 'Canvas',
+          path: '/app1/project/canvas',
+          // component: 'Home',
         },
       ],
     },
