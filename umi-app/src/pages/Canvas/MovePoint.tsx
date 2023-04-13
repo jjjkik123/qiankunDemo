@@ -10,7 +10,17 @@ const MovePoint = () => {
 	useLayoutEffect(() => {
 		init();
 	}, []);
-	return <canvas className={styles.canvasType}>MovePoint</canvas>;
+	return (
+		<>
+			<canvas className={styles.canvasType}>MovePoint</canvas>
+      <div style={{background:'red'}}>12asdda3</div>
+      <div>12asdda3</div>
+      <div>12asdda3</div>
+      <div>12asdda3</div>
+      <div>12asdda3</div>
+      <div>12asdda3</div>
+		</>
+	);
 };
 
 export default MovePoint;

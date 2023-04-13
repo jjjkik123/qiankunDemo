@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@ant-design/pro-components': ^2.4.4
+  '@types/node': ^18.15.11
   '@types/react': ^18.0.0
   '@types/react-dom': ^18.0.0
   '@umijs/plugins': ^4.0.64
@@ -13,9 +14,10 @@ dependencies:
   '@ant-design/pro-components': 2.4.4_antd@5.4.0
   '@umijs/plugins': 4.0.64_wslvwpspny5f7aff3jzpzdbd7i
   antd: 5.4.0
-  umi: 4.0.64_co4n7qvkzgla7xbmdhe6bcwtkq
+  umi: 4.0.64_7inuwbgwd7xdzatow7puxm7wmq
 
 devDependencies:
+  '@types/node': 18.15.11
   '@types/react': 18.0.33
   '@types/react-dom': 18.0.11
   typescript: 5.0.4
@@ -3135,7 +3137,6 @@ packages:
 
   /@types/node/18.15.11:
     resolution: {integrity: sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==}
-    dev: false
 
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
@@ -3417,7 +3418,7 @@ packages:
       - supports-color
     dev: false
 
-  /@umijs/bundler-vite/4.0.64:
+  /@umijs/bundler-vite/4.0.64_@types+node@18.15.11:
     resolution: {integrity: sha512-spLYTCgJZy8LC8DzhZYtsUlOd1iQYTD+0vgYuh7qHIitGzvbTikTpKNNXYlbFM2NV8jFXhngL3JyUf3x0YZIfA==}
     hasBin: true
     dependencies:
@@ -3428,7 +3429,7 @@ packages:
       less: 4.1.3
       postcss-preset-env: 7.5.0
       rollup-plugin-visualizer: 5.9.0
-      vite: 4.2.0_less@4.1.3
+      vite: 4.2.0_6yunucjcl4g6chxuif73yri7xi
     transitivePeerDependencies:
       - '@types/node'
       - postcss
@@ -3695,7 +3696,7 @@ packages:
       - supports-color
     dev: false
 
-  /@umijs/preset-umi/4.0.64_co4n7qvkzgla7xbmdhe6bcwtkq:
+  /@umijs/preset-umi/4.0.64_7inuwbgwd7xdzatow7puxm7wmq:
     resolution: {integrity: sha512-Ya6SIp/h8m1iGFqlxSEyOnH56rAtokdLv4S1RM20wPEa9xexL++8bhTaHGTSqfEn5RcvFnzWf4EONpRGiR7mEg==}
     dependencies:
       '@iconify/utils': 2.1.1
@@ -3703,7 +3704,7 @@ packages:
       '@umijs/ast': 4.0.64
       '@umijs/babel-preset-umi': 4.0.64
       '@umijs/bundler-utils': 4.0.64
-      '@umijs/bundler-vite': 4.0.64
+      '@umijs/bundler-vite': 4.0.64_@types+node@18.15.11
       '@umijs/bundler-webpack': 4.0.64_typescript@5.0.4
       '@umijs/core': 4.0.64
       '@umijs/did-you-know': 1.0.3
@@ -3852,7 +3853,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.19.6_@babel+core@7.21.4
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.2.0_less@4.1.3
+      vite: 4.2.0_6yunucjcl4g6chxuif73yri7xi
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -9463,7 +9464,7 @@ packages:
     engines: {node: '>=12.20'}
     hasBin: true
 
-  /umi/4.0.64_co4n7qvkzgla7xbmdhe6bcwtkq:
+  /umi/4.0.64_7inuwbgwd7xdzatow7puxm7wmq:
     resolution: {integrity: sha512-2HIwoeBRvkk3soST5xFdQy0+Kdgle9GCHeYcsQytJsuU8qCr68ijmyTmRTo8rbnIHBFP0lszjXSLBFqaDu9FNA==}
     engines: {node: '>=14'}
     hasBin: true
@@ -9473,7 +9474,7 @@ packages:
       '@umijs/bundler-webpack': 4.0.64_typescript@5.0.4
       '@umijs/core': 4.0.64
       '@umijs/lint': 4.0.64_typescript@5.0.4
-      '@umijs/preset-umi': 4.0.64_co4n7qvkzgla7xbmdhe6bcwtkq
+      '@umijs/preset-umi': 4.0.64_7inuwbgwd7xdzatow7puxm7wmq
       '@umijs/renderer-react': 4.0.64
       '@umijs/server': 4.0.64
       '@umijs/test': 4.0.64
@@ -9650,7 +9651,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
-  /vite/4.2.0_less@4.1.3:
+  /vite/4.2.0_6yunucjcl4g6chxuif73yri7xi:
     resolution: {integrity: sha512-AbDTyzzwuKoRtMIRLGNxhLRuv1FpRgdIw+1y6AQG73Q5+vtecmvzKo/yk8X/vrHDpETRTx01ABijqUHIzBXi0g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -9675,6 +9676,7 @@ packages:
       terser:
         optional: true
     dependencies:
+      '@types/node': 18.15.11
       esbuild: 0.17.15
       less: 4.1.3
       postcss: 8.4.21

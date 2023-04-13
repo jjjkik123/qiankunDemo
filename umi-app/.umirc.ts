@@ -5,6 +5,7 @@ export default defineConfig({
 		{ path: '/home', component: 'index' },
 		{ path: '/docs', component: 'docs' },
 		{ path: '/canvas', component: 'Canvas/MovePoint' },
+		{ path: '/promise', component: 'Promise' },
 	],
   plugins: ['@umijs/plugins/dist/qiankun'],
 	qiankun: {

@@ -52,6 +52,11 @@ export default defineConfig({
           path: '/app1/project/canvas',
           // component: 'Home',
         },
+        {
+          name: 'MyPromise',
+          path: '/app1/project/promise',
+          // component: 'Home',
+        },
       ],
     },
     {

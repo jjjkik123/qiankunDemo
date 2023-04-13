@@ -71,8 +71,10 @@ class Graph {
 		this.cvs = document.querySelector('canvas')!;
 		this.ctx = this.cvs.getContext('2d')!;
 		const root = document.getElementById('root')!;
-		this.cvs.width = root.scrollWidth * devicePixelRatio;
-		this.cvs.height = window.innerHeight * devicePixelRatio;
+		this.cvs.width = root.scrollWidth;
+		console.log(root.scrollWidth, devicePixelRatio);
+
+		this.cvs.height = window.innerHeight;
 		this.points = new Array(this.pointNumber)
 			.fill(0)
 			.map(() => new Point(this.cvs, this.ctx));
